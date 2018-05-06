@@ -1,1 +1,1 @@
-# Pam Pierce HTML5 Specialist Repository
+# ltp-html5-specialist
