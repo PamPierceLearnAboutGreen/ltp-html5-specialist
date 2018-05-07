@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Page Title </title>
+</head>
+
+	<body>
+		<form action="#" method="post">
+            <label for="patientname">PATIENT NAME</label>
+            <input type="text" name="patientname" id="patientname">
+            <label for="birthdate">Birth Date</label>
+            <input type="date" name="birthdate" id="birthday"><br/>
+            <fieldset><p>Although dental personnel primarily treat the area in and around your mouth, your mouth is a part of your entire body. Health problems that you may have or medication that you may be taking could have an importnat interrelationship with the dentistry you will receive.  Thank you for answering the following questions.</p>
+            </fieldset>
+            <fieldset >
+            Are you under a physcian's care now?
+                    <input type="radio" name="physciancare" id="pcyes" value="Yes">
+                    Yes
+                    <input type="radio" name="physciancare" id="pcno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="phsyciancarenote" id="pcnote"><br/>
+            Have you ever been hospitalized or had a major operation?
+                    <input type="radio" name="operation" id="opyes" value="Yes">
+                    Yes
+                    <input type="radio" name="operation" id="opno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="opnote" id="opnote"><br/>
+            Have you ever had a serious head or neck injury?
+                    <input type="radio" name="injury" id="injuryyes" value="Yes">
+                    Yes
+                    <input type="radio" name="injury" id="injuryno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="injurynote" id="injurynote"><br/>
+            Are you taking any medications, pills or drugs?
+                    <input type="radio" name="meds" id="medsyes" value="Yes">
+                    Yes
+                    <input type="radio" name="meds" id="medsno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="phsyciancarenote" id="pcnote"><br/>
+            Do you take, or have you taken, Phen-Fen or Redux?
+                    <input type="radio" name="phen" id="phenyes" value="Yes">
+                    Yes
+                    <input type="radio" name="phen" id="phenno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="phhennote" id="pcnote"><br/>
+            Have you ever taken Fosamax, Boniva, Actonel or any other medications containing bisphosphonates?
+                    <input type="radio" name="bisph" id="bisphyes" value="Yes">
+                    Yes
+                    <input type="radio" name="bisph" id="bisphno" value="No">
+                    No
+                    &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="bisphnote" id="bisphnote"><br/>
+            Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                    <br/>
+            Do you use tobacco?
+                    <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                    Yes
+                    <input type="radio" name="tobacco" id="tobaccono" value="No">
+                    No
+                    <br/>
+            Do you use controlled substances?
+                    <input type="radio" name="substance" id="substanceyes" value="Yes">
+                    Yes
+                    <input type="radio" name="substance" id="substanceno" value="No">
+                    No
+                    <br/>
+            </fieldset>
+            <fieldset>
+            <legend>Women: Are you</legend>
+                Pregnant/Trying to get pregnant?
+                    <input type="radio" name="pregnant" id="pregnantyes" value="Yes">
+                    Yes
+                    <input type="radio" name="pregnant" id="pregnantno" value="No">
+                    No
+                    
+                &nbsp; &nbsp; &nbsp; Taking oral contraceptives?
+                    <input type="radio" name="contraceptive" id="contraceptiveyes" value="Yes">
+                    Yes
+                    <input type="radio" name="contraceptive" id="contraceptiveno" value="No">
+                    No
+                &nbsp; &nbsp; &nbsp; Nursing?
+                    <input type="radio" name="nursing" id="nursingyes" value="Yes">
+                    Yes
+                    <input type="radio" name="nursing" id="nursingno" value="No">
+                    No
+            </fieldset>
+            <fieldset>
+            <legend>Are you allergic to any of the following?</legend>
+                <input type="checkbox" name="allergic" value="aspirin">Aspirin
+                <input type="checkbox" name="allergic" value="penicillin">Penicillin
+                <input type="checkbox" name="allergic" value="codeine">Codeine
+                <input type="checkbox" name="allergic" value="localanest">Local Anesthetics
+                <input type="checkbox" name="allergic" value="acrylic">Acrylic
+                <input type="checkbox" name="allergic" value="metal">Metal
+                <input type="checkbox" name="allergic" value="latex">Latex
+                <input type="checkbox" name="allergic" value="sulfa">sulfa drugs<br/>
+                <input type="checkbox" name="allergic" value="other">Other
+                &nbsp; &nbsp; If yes, please explain:
+                    <input type="text" name="allergic" id="allergicnote"><br/>
+                
+            </fieldset>
+            <fieldset>
+            <legend>Do you have, or have you had, any of the following?</legend>
+                AIDS/HIV Positive
+                    <input type="radio" name="aids" id="aidsyes" value="Yes">
+                    Yes
+                    <input type="radio" name="aids" id="aidsno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Cortisone Medicine?
+                        <input type="radio" name="cortisone" id="cortisoneyes" value="Yes">
+                        Yes
+                        <input type="radio" name="cortisone" id="cortisoneno" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Hemophia
+                        <input type="radio" name="hemophilia" id="hemophiliayes" value="Yes">
+                        Yes
+                        <input type="radio" name="hemophilia" id="hemophiliano" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Radiation Treatments
+                        <input type="radio" name="radiation" id="radiationyes" value="Yes">
+                        Yes
+                        <input type="radio" name="radiation" id="radiationno" value="No">
+                        No
+                        <br/>
+                Alzheimer's Disease
+                    <input type="radio" name="alzheimer" id="alzyes" value="Yes">
+                    Yes
+                    <input type="radio" name="alzheimer" id="alzno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Diabetes
+                        <input type="radio" name="diabetes" id="diabetesyes" value="Yes">
+                        Yes
+                        <input type="radio" name="diabetes" id="diabetesno" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Hepatitis A
+                        <input type="radio" name="hepetitis" id="hepyes" value="Yes">
+                        Yes
+                        <input type="radio" name="hepatitis" id="hepno" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Recent weight loss
+                        <input type="radio" name="weight" id="weightyes" value="Yes">
+                        Yes
+                        <input type="radio" name="weight" id="weightno" value="No">
+                        No
+                        <br/>
+                Anaphylaxis
+                    <input type="radio" name="anaphylaxis" id="anayes" value="Yes">
+                    Yes
+                    <input type="radio" name="anaphylaxis" id="anano" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Drug Addition
+                        <input type="radio" name="drug" id="drugyes" value="Yes">
+                        Yes
+                        <input type="radio" name="drug" id="drugno" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Hepatitis B or C
+                        <input type="radio" name="hepbc" id="hepbcyes" value="Yes">
+                        Yes
+                        <input type="radio" name="hepbc" id="hepbcno" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Renal Dialysis
+                        <input type="radio" name="renal" id="renalyes" value="Yes">
+                        Yes
+                        <input type="radio" name="renal" id="renalno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+                                Are you on a special diet?
+                    <input type="radio" name="diet" id="dietyes" value="Yes">
+                    Yes
+                    <input type="radio" name="diet" id="dietno" value="No">
+                    No
+                &nbsp; &#124; &nbsp;                 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No
+                &nbsp; &#124; &nbsp; 
+                Do you use tobacco?
+                        <input type="radio" name="tobacco" id="tobaccoyes" value="Yes">
+                        Yes
+                        <input type="radio" name="tobacco" id="tobaccono" value="No">
+                        No      
+                &nbsp; &#124; &nbsp; 
+                Do you use controlled substances?
+                        <input type="radio" name="substance" id="substanceyes" value="Yes">
+                        Yes
+                        <input type="radio" name="substance" id="substanceno" value="No">
+                        No
+                        <br/>
+            </fieldset>
+            <fieldset>
+            Comments
+            </fieldset>
+            <fieldset>
+            <p>To the best of my knowledge, the questions on this form have been accurately answered.  I understand that providing incorrect information can be dangerous to my (or patient's) health. It is my responsibility to inform the dental office of any changes in medical status.</p>
+            <label for="signature">SIGNATURE OF PATIENT, PARENT, or GUARDIAN</label>
+            <input type="text" name="signature" id="signature">
+            <label for="datesigned">DATE</label>
+            <input type="date" name="datesigned" id="datesigned">    
+                
+            </fieldset>
+        
+        </form>
+	</body>
+
+</html>
